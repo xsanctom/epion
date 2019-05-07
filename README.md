@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# Simple Grid
+A lightweight, responsive CSS grid  
 
-You can use the [editor on GitHub](https://github.com/xsanctom/epion/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Developed by Zach Cole
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Simple Grid and Simple Code
 
-### Markdown
+Simple Grid is a mobile-first 12-column CSS grid system to make developing responsive websites easy and fast.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+All the code you need is simple and familiar. A parent container class contains the grid. Within the container are rows. Row classes denote rows of content, which can be filled with up to 12 columns. Columns must be nested within a row. 
 
-```markdown
-Syntax highlighted code block
+To define your column width, declare how many columns you want your content to take up on desktop and large screens. For example, if your content should take up 6 out of 12 columns (or half the container), your class name will be .col-6.
 
-# Header 1
-## Header 2
-### Header 3
+If you don’t want columns to expand on mobile devices and small screens, simply add -sm to the end of your column class name. For example, if you want to have two blocks of content floating side-by-side on small screens, each would be given the class name .col-6-sm.
 
-- Bulleted
-- List
+Update: Grid styles are now available in SASS/SCSS. Hooray! Thanks to [shankariyerr](https://github.com/shankariyerr/) for contributing as well.
 
-1. Numbered
-2. List
+Learn more and see code samples at: http://simplegrid.io
 
-**Bold** and _Italic_ and `Code` text
+## License
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xsanctom/epion/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    Open source under the MIT License.
